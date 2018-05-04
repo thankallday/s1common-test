@@ -2,6 +2,8 @@ package com.scholarone;
 
 import java.sql.Timestamp;
 
+//
+
 public class ScholarOneRuntineException extends RuntimeException
 {
   private static final long serialVersionUID = 1L;
