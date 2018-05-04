@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="cache" size="1440,1166" id="com.scholarone.cache" metadata="uml2-1.0" initialized="true" tag="1000" key="3230303530343037207331636F6D6D6F6E2F726964696E6773">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="CacheManager" location="992,10" size="230,355" id="com.scholarone.cache/CacheManager" runTimeClassModel="size(),containsKey(Lcom.scholarone.cache.CacheKey;),flush(I),flush(),convertLongevity(Ljava.lang.String;),get(Lcom.scholarone.cache.CacheKey;),getInstance(),flush(Lcom.scholarone.cache.CacheableObject;),outputContents(),containsObject(Lcom.scholarone.cache.CacheableObject;),put(Lcom.scholarone.cache.CacheKey;Lcom.scholarone.cache.CacheableObject;),flush(Lcom.scholarone.cache.CacheKey;Z),regenerate(Lcom.scholarone.cache.CacheKey;),get(Lcom.scholarone.cache.CacheableObject;),put(Lcom.scholarone.cache.CacheableObject;),nAME,get(Ljava.lang.String;Ljava.lang.Integer;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="83,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="nAME" id="com.scholarone.cache/CacheManager#nAME"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="207,288">
+      <children xsi:type="editmodel:MethodEditModel" name="containsKey" id="com.scholarone.cache/CacheManager#containsKey(Lcom.scholarone.cache.CacheKey;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="convertLongevity" id="com.scholarone.cache/CacheManager#convertLongevity(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/CacheManager#flush()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/CacheManager#flush(Lcom.scholarone.cache.CacheKey;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/CacheManager#flush(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="com.scholarone.cache/CacheManager#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regenerate" id="com.scholarone.cache/CacheManager#regenerate(Lcom.scholarone.cache.CacheKey;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="size" id="com.scholarone.cache/CacheManager#size()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/CacheManager#flush(Lcom.scholarone.cache.CacheableObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsObject" id="com.scholarone.cache/CacheManager#containsObject(Lcom.scholarone.cache.CacheableObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="outputContents" id="com.scholarone.cache/CacheManager#outputContents()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get" id="com.scholarone.cache/CacheManager#get(Lcom.scholarone.cache.CacheKey;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get" id="com.scholarone.cache/CacheManager#get(Ljava.lang.String;Ljava.lang.Integer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get" id="com.scholarone.cache/CacheManager#get(Lcom.scholarone.cache.CacheableObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="put" id="com.scholarone.cache/CacheManager#put(Lcom.scholarone.cache.CacheableObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="put" id="com.scholarone.cache/CacheManager#put(Lcom.scholarone.cache.CacheKey;Lcom.scholarone.cache.CacheableObject;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="CachePointer" location="508,410" size="160,283" id="com.scholarone.cache/CachePointer" runTimeClassModel="getLastAccessTime(),CachePointer(Lcom.scholarone.cache.CacheableObject;Lcom.scholarone.cache.TimeList;),setObject(Lcom.scholarone.cache.CacheableObject;),CachePointer(Lcom.scholarone.cache.CacheableObject;Lcom.scholarone.cache.TimeList;I),getObject(),addKey(Lcom.scholarone.cache.CacheKey;),expire(),setRequestHash(I),getCacheKeys(),getRequestHash(),touch(),getLastAccessMinute()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,234">
+      <children xsi:type="editmodel:MethodEditModel" name="CachePointer" id="com.scholarone.cache/CachePointer#CachePointer(Lcom.scholarone.cache.CacheableObject;Lcom.scholarone.cache.TimeList;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="expire" id="com.scholarone.cache/CachePointer#expire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastAccessTime" id="com.scholarone.cache/CachePointer#getLastAccessTime()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRequestHash" id="com.scholarone.cache/CachePointer#getRequestHash()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRequestHash" id="com.scholarone.cache/CachePointer#setRequestHash(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="touch" id="com.scholarone.cache/CachePointer#touch()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CachePointer" id="com.scholarone.cache/CachePointer#CachePointer(Lcom.scholarone.cache.CacheableObject;Lcom.scholarone.cache.TimeList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setObject" id="com.scholarone.cache/CachePointer#setObject(Lcom.scholarone.cache.CacheableObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getObject" id="com.scholarone.cache/CachePointer#getObject()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addKey" id="com.scholarone.cache/CachePointer#addKey(Lcom.scholarone.cache.CacheKey;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCacheKeys" id="com.scholarone.cache/CachePointer#getCacheKeys()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastAccessMinute" id="com.scholarone.cache/CachePointer#getLastAccessMinute()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/CacheableObject@object+com.scholarone.cache/CachePointer@cachePointer" source="//@children.1" target="//@children.10" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cachePointer" location="160,116" id="com.scholarone.cache/CacheableObject@object+com.scholarone.cache/CachePointer@cachePointer|com.scholarone.cache/CachePointer#cachePointer" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="object" location="0,220" id="com.scholarone.cache/CacheableObject@object+com.scholarone.cache/CachePointer@cachePointer|com.scholarone.cache/CacheableObject#object" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - object" location="753,505" size="40,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="786,533" size="7,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/CacheKey@cacheKeys+com.scholarone.cache/CachePointer@cachePointer" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.1/@children.1" label="//@children.1/@sourceConnections.1/@children.2" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cachePointer" location="0,273" id="com.scholarone.cache/CacheKey@cacheKeys+com.scholarone.cache/CachePointer@cachePointer|com.scholarone.cache/CachePointer#cachePointer" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cacheKeys" location="122,0" id="com.scholarone.cache/CacheKey@cacheKeys+com.scholarone.cache/CachePointer@cachePointer|com.scholarone.cache/CacheKey#cacheKeys" multiplicityLabel="//@children.1/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - cacheKeys" location="329,669" size="66,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="409,669" size="5,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/CachePointer@cache+com.scholarone.cache/Cache@cache" source="//@children.1" target="//@children.8" targetEnd="//@children.1/@sourceConnections.2/@children.1" label="//@children.1/@sourceConnections.2/@children.2" sourceEnd="//@children.1/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cache" location="140,0" id="com.scholarone.cache/CachePointer@cache+com.scholarone.cache/Cache@cache|com.scholarone.cache/CachePointer#cache" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.1/@sourceConnections.2/@children.0/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - cache" location="655,389" size="41,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="622,389" size="19,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cache" location="18,211" id="com.scholarone.cache/CachePointer@cache+com.scholarone.cache/Cache@cache|com.scholarone.cache/Cache#cache">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="key" location="632,251" size="33,23" id=""/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/CachePointer@cachePointer+com.scholarone.cache/CacheTouch@cacheTouch" source="//@children.1" target="//@children.13" targetEnd="//@children.1/@sourceConnections.3/@children.1" label="//@children.1/@sourceConnections.3/@children.2" sourceEnd="//@children.1/@sourceConnections.3/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cachePointer" location="0,190" id="com.scholarone.cache/CachePointer@cachePointer+com.scholarone.cache/CacheTouch@cacheTouch|com.scholarone.cache/CachePointer#cachePointer" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.1/@sourceConnections.3/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - cachePointer" location="427,579" size="74,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="494,607" size="7,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cacheTouch" location="122,60" id="com.scholarone.cache/CachePointer@cachePointer+com.scholarone.cache/CacheTouch@cacheTouch|com.scholarone.cache/CacheTouch#cacheTouch" multiplicityLabel="//@children.1/@sourceConnections.3/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.3/@children.1/@children.0" navigable="true" orderingKind="1">
+        <children xsi:type="editmodel:LabelEditModel" name=" + cacheTouch" location="214,579" size="73,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="214,607" size="5,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CacheCriteria" location="50,720" size="130,193" id="com.scholarone.cache/CacheCriteria" runTimeClassModel="hashCode(),toString(),CacheCriteria(Ljava.lang.Object;),equals(Ljava.lang.Object;),CacheCriteria(),CacheCriteria([Ljava.lang.Object;),getCriteria()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="criteria" id="com.scholarone.cache/CacheCriteria#criteria"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,126">
+      <children xsi:type="editmodel:MethodEditModel" name="CacheCriteria" id="com.scholarone.cache/CacheCriteria#CacheCriteria([Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CacheCriteria" id="com.scholarone.cache/CacheCriteria#CacheCriteria()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CacheCriteria" id="com.scholarone.cache/CacheCriteria#CacheCriteria(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="com.scholarone.cache/CacheCriteria#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCriteria" id="com.scholarone.cache/CacheCriteria#getCriteria()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="com.scholarone.cache/CacheCriteria#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.scholarone.cache/CacheCriteria#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/CacheCriteria@criteria+com.scholarone.cache/CacheKey@cacheKey" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="criteria" location="130,96" id="com.scholarone.cache/CacheCriteria@criteria+com.scholarone.cache/CacheKey@cacheKey|com.scholarone.cache/CacheCriteria#criteria" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - criteria" location="187,795" size="44,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="187,823" size="7,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cacheKey" location="0,126" id="com.scholarone.cache/CacheCriteria@criteria+com.scholarone.cache/CacheKey@cacheKey|com.scholarone.cache/CacheKey#cacheKey"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.1/@sourceConnections.1" name="CacheKey" location="280,690" size="132,301" id="com.scholarone.cache/CacheKey" runTimeClassModel="getObjectClass(),hashCode(),toString(),CacheKey(Ljava.lang.Class;Lcom.scholarone.cache.CacheCriteria;Lcom.scholarone.cache.CacheableObject.ObjectGenerator;),getScope(),equals(Ljava.lang.Object;),CacheKey(Ljava.lang.Class;Ljava.lang.Object;),CacheKey(Ljava.lang.Class;Lcom.scholarone.cache.CacheCriteria;),setScope(I),setGenerator(Lcom.scholarone.cache.CacheableObject.ObjectGenerator;),CacheKey(Ljava.lang.Class;Ljava.lang.Object;I),getCriteria()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="objectClass" id="com.scholarone.cache/CacheKey#objectClass"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="scope" id="com.scholarone.cache/CacheKey#scope"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,216">
+      <children xsi:type="editmodel:MethodEditModel" name="CacheKey" id="com.scholarone.cache/CacheKey#CacheKey(Ljava.lang.Class;Ljava.lang.Object;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CacheKey" id="com.scholarone.cache/CacheKey#CacheKey(Ljava.lang.Class;Lcom.scholarone.cache.CacheCriteria;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CacheKey" id="com.scholarone.cache/CacheKey#CacheKey(Ljava.lang.Class;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="com.scholarone.cache/CacheKey#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCriteria" id="com.scholarone.cache/CacheKey#getCriteria()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getObjectClass" id="com.scholarone.cache/CacheKey#getObjectClass()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getScope" location="51,203" id="com.scholarone.cache/CacheKey#getScope()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="com.scholarone.cache/CacheKey#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setScope" id="com.scholarone.cache/CacheKey#setScope(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.scholarone.cache/CacheKey#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CacheKey" id="com.scholarone.cache/CacheKey#CacheKey(Ljava.lang.Class;Lcom.scholarone.cache.CacheCriteria;Lcom.scholarone.cache.CacheableObject.ObjectGenerator;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGenerator" id="com.scholarone.cache/CacheKey#setGenerator(Lcom.scholarone.cache.CacheableObject.ObjectGenerator;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/CacheKey@key+com.scholarone.cache/CacheableObjectHolder@cacheableObjectHolder" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.1" label="//@children.3/@sourceConnections.0/@children.2" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="key" location="132,270" id="com.scholarone.cache/CacheKey@key+com.scholarone.cache/CacheableObjectHolder@cacheableObjectHolder|com.scholarone.cache/CacheKey#key" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.3/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - key" location="419,939" size="28,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="419,967" size="7,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cacheableObjectHolder" location="0,30" id="com.scholarone.cache/CacheKey@key+com.scholarone.cache/CacheableObjectHolder@cacheableObjectHolder|com.scholarone.cache/CacheableObjectHolder#cacheableObjectHolder"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.9/@sourceConnections.1" name="CacheableObjectHolder" location="1034,930" size="194,103" id="com.scholarone.cache/CacheableObjectHolder" runTimeClassModel="getKey(),getObject(),CacheableObjectHolder(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,54">
+      <children xsi:type="editmodel:MethodEditModel" name="getKey" id="com.scholarone.cache/CacheableObjectHolder#getKey()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getObject" id="com.scholarone.cache/CacheableObjectHolder#getObject()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CacheableObjectHolder" id="com.scholarone.cache/CacheableObjectHolder#CacheableObjectHolder(Ljava.lang.Object;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="java.lang/Object@object+com.scholarone.cache/CacheableObjectHolder@cacheableObjectHolder" source="//@children.4" target="//@children.12" targetEnd="//@children.4/@sourceConnections.0/@children.1" label="//@children.4/@sourceConnections.0/@children.2" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cacheableObjectHolder" location="10,0" id="java.lang/Object@object+com.scholarone.cache/CacheableObjectHolder@cacheableObjectHolder|com.scholarone.cache/CacheableObjectHolder#cacheableObjectHolder" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="object" location="155,237" id="java.lang/Object@object+com.scholarone.cache/CacheableObjectHolder@cacheableObjectHolder|java.lang/Object#object" multiplicityLabel="//@children.4/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - object" location="1042,882" size="40,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1042,910" size="7,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CacheTimeManager" location="310,10" size="184,373" id="com.scholarone.cache/CacheTimeManager" runTimeClassModel="pERMANENT,lONG_STRING,CacheTimeManager(Lcom.scholarone.cache.Cache;),vERY_LONG_STRING,checkLists(J),flush(I),convertLongevity(Ljava.lang.String;),lONG,getList(Lcom.scholarone.cache.CacheableObject;),sHORT_STRING,rEQUEST_STRING,pERMANENT_STRING,flushAll(),mEDIUM,rEQUEST,mEDIUM_STRING,sHORT,vERY_LONG">
+    <children xsi:type="editmodel:CompartmentEditModel" size="161,216">
+      <children xsi:type="editmodel:AttributeEditModel" name="lONG" id="com.scholarone.cache/CacheTimeManager#lONG"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lONG_STRING" id="com.scholarone.cache/CacheTimeManager#lONG_STRING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mEDIUM" id="com.scholarone.cache/CacheTimeManager#mEDIUM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mEDIUM_STRING" id="com.scholarone.cache/CacheTimeManager#mEDIUM_STRING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pERMANENT" id="com.scholarone.cache/CacheTimeManager#pERMANENT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pERMANENT_STRING" id="com.scholarone.cache/CacheTimeManager#pERMANENT_STRING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rEQUEST" id="com.scholarone.cache/CacheTimeManager#rEQUEST"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rEQUEST_STRING" id="com.scholarone.cache/CacheTimeManager#rEQUEST_STRING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sHORT" id="com.scholarone.cache/CacheTimeManager#sHORT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sHORT_STRING" id="com.scholarone.cache/CacheTimeManager#sHORT_STRING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vERY_LONG" id="com.scholarone.cache/CacheTimeManager#vERY_LONG"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vERY_LONG_STRING" id="com.scholarone.cache/CacheTimeManager#vERY_LONG_STRING"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,108">
+      <children xsi:type="editmodel:MethodEditModel" name="CacheTimeManager" id="com.scholarone.cache/CacheTimeManager#CacheTimeManager(Lcom.scholarone.cache.Cache;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkLists" id="com.scholarone.cache/CacheTimeManager#checkLists(J)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="convertLongevity" id="com.scholarone.cache/CacheTimeManager#convertLongevity(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/CacheTimeManager#flush(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flushAll" id="com.scholarone.cache/CacheTimeManager#flushAll()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getList" id="com.scholarone.cache/CacheTimeManager#getList(Lcom.scholarone.cache.CacheableObject;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/Cache@cache+com.scholarone.cache/CacheTimeManager@timeManager" source="//@children.5" target="//@children.8" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="timeManager" location="184,139" id="com.scholarone.cache/Cache@cache+com.scholarone.cache/CacheTimeManager@timeManager|com.scholarone.cache/CacheTimeManager#timeManager" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + timeManager" location="501,128" size="74,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="501,156" size="7,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cache" location="0,105" id="com.scholarone.cache/Cache@cache+com.scholarone.cache/CacheTimeManager@timeManager|com.scholarone.cache/Cache#cache" multiplicityLabel="//@children.5/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - cache" location="582,128" size="41,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="616,156" size="7,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/CacheTimeManager@timeManager+com.scholarone.cache/CacheExpirationTimerTask@cacheExpirationTimerTask" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.1/@children.1" label="//@children.5/@sourceConnections.1/@children.2" sourceEnd="//@children.5/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="timeManager" location="0,139" id="com.scholarone.cache/CacheTimeManager@timeManager+com.scholarone.cache/CacheExpirationTimerTask@cacheExpirationTimerTask|com.scholarone.cache/CacheTimeManager#timeManager" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.5/@sourceConnections.1/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - timeManager" location="231,128" size="72,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="296,156" size="7,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cacheExpirationTimerTask" location="214,69" id="com.scholarone.cache/CacheTimeManager@timeManager+com.scholarone.cache/CacheExpirationTimerTask@cacheExpirationTimerTask|com.scholarone.cache/CacheExpirationTimerTask#cacheExpirationTimerTask"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="com.scholarone.cache/TimeList@lists+com.scholarone.cache/CacheTimeManager@" source="//@children.5" target="//@children.7" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,263" id="com.scholarone.cache/TimeList@lists+com.scholarone.cache/CacheTimeManager@|com.scholarone.cache/CacheTimeManager#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="lists" location="59,0" id="com.scholarone.cache/TimeList@lists+com.scholarone.cache/CacheTimeManager@|com.scholarone.cache/TimeList#lists" multiplicityLabel="//@children.5/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.2/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - lists" location="112,309" size="30,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="156,309" size="5,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1" verticalGuide="//@boardSetting/@topRuler/@guides.1" name="CacheExpirationTimerTask" location="9,80" size="214,139" id="com.scholarone.cache/CacheExpirationTimerTask" runTimeClassModel="getTimeManager(),start(I),setTimeManager(Lcom.scholarone.cache.CacheTimeManager;),CacheExpirationTimerTask(),run()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="182,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,90">
+      <children xsi:type="editmodel:MethodEditModel" name="CacheExpirationTimerTask" id="com.scholarone.cache/CacheExpirationTimerTask#CacheExpirationTimerTask()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="com.scholarone.cache/CacheExpirationTimerTask#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="com.scholarone.cache/CacheExpirationTimerTask#start(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTimeManager" id="com.scholarone.cache/CacheExpirationTimerTask#getTimeManager()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTimeManager" id="com.scholarone.cache/CacheExpirationTimerTask#setTimeManager(Lcom.scholarone.cache.CacheTimeManager;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.2" name="TimeList" location="90,330" size="120,139" id="com.scholarone.cache/TimeList" runTimeClassModel="clearFor(I),sCALE,clearBefore(J),flush()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="71,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="sCALE" id="com.scholarone.cache/TimeList#sCALE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,72">
+      <children xsi:type="editmodel:MethodEditModel" name="clearBefore" id="com.scholarone.cache/TimeList#clearBefore(J)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearFor" id="com.scholarone.cache/TimeList#clearFor(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/TimeList#flush()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/TimeList@timeList+com.scholarone.cache/CachePointer@cachePointer" source="//@children.7" target="//@children.1" targetEnd="//@children.7/@sourceConnections.0/@children.1" label="//@children.7/@sourceConnections.0/@children.2" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="timeList" location="120,109" id="com.scholarone.cache/TimeList@timeList+com.scholarone.cache/CachePointer@cachePointer|com.scholarone.cache/TimeList#timeList" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.7/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - timeList" location="217,418" size="47,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="217,446" size="19,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cachePointer" location="0,29" id="com.scholarone.cache/TimeList@timeList+com.scholarone.cache/CachePointer@cachePointer|com.scholarone.cache/CachePointer#cachePointer"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.scholarone.cache/TimeList->com.scholarone.cache/CacheTouch" source="//@children.7" target="//@children.13" targetEnd="//@children.7/@sourceConnections.1/@children.1" label="//@children.7/@sourceConnections.1/@children.2" sourceEnd="//@children.7/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,139" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,0"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.1/@sourceConnections.2" name="Cache" location="630,44" size="114,211" id="com.scholarone.cache/Cache" runTimeClassModel="flush(Lcom.scholarone.cache.CacheKey;Z),flushAll(),containsKey(Lcom.scholarone.cache.CacheKey;),regenerate(Lcom.scholarone.cache.CacheKey;),Cache(),flush(I),get(Lcom.scholarone.cache.CacheKey;),flush(Lcom.scholarone.cache.CachePointer;Z),put(Lcom.scholarone.cache.CacheKey;Lcom.scholarone.cache.CacheableObject;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Cache" id="com.scholarone.cache/Cache#Cache()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsKey" id="com.scholarone.cache/Cache#containsKey(Lcom.scholarone.cache.CacheKey;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/Cache#flush(Lcom.scholarone.cache.CacheKey;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/Cache#flush(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flushAll" id="com.scholarone.cache/Cache#flushAll()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regenerate" id="com.scholarone.cache/Cache#regenerate(Lcom.scholarone.cache.CacheKey;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="put" id="com.scholarone.cache/Cache#put(Lcom.scholarone.cache.CacheKey;Lcom.scholarone.cache.CacheableObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get" id="com.scholarone.cache/Cache#get(Lcom.scholarone.cache.CacheKey;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/Cache#flush(Lcom.scholarone.cache.CachePointer;Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.scholarone.cache/Cache@cache+com.scholarone.cache/CacheManager@cacheManager" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" label="//@children.8/@sourceConnections.0/@children.2" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cache" location="114,105" id="com.scholarone.cache/Cache@cache+com.scholarone.cache/CacheManager@cacheManager|com.scholarone.cache/Cache#cache" attachSource="true" multiplicityLabel="//@children.8/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.8/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - cache" location="751,128" size="41,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="751,156" size="7,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cacheManager" location="0,139" id="com.scholarone.cache/Cache@cache+com.scholarone.cache/CacheManager@cacheManager|com.scholarone.cache/CacheManager#cacheManager"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CacheList" location="1057,310" size="165,427" id="com.scholarone.cache/CacheList" runTimeClassModel="size(),CacheList(Ljava.util.Collection;),isCacheable(),getId(),flush(),regenerate(Lcom.scholarone.cache.CacheableObject;),CacheList(),getSecondaryKey(),isRefreshCacheOnUse(),getRegenerator(),remove(I),ensureCapacity(I),set(ILjava.lang.Object;),getPrimaryKey(),add(ILjava.lang.Object;),setCacheLongevity(I),CacheList(I),get(I),getCacheLongevity()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,378">
+      <children xsi:type="editmodel:MethodEditModel" name="CacheList" id="com.scholarone.cache/CacheList#CacheList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CacheList" id="com.scholarone.cache/CacheList#CacheList(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CacheList" id="com.scholarone.cache/CacheList#CacheList(Ljava.util.Collection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="com.scholarone.cache/CacheList#add(ILjava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ensureCapacity" id="com.scholarone.cache/CacheList#ensureCapacity(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/CacheList#flush()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get" id="com.scholarone.cache/CacheList#get(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCacheLongevity" id="com.scholarone.cache/CacheList#getCacheLongevity()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" id="com.scholarone.cache/CacheList#getId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPrimaryKey" id="com.scholarone.cache/CacheList#getPrimaryKey()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSecondaryKey" id="com.scholarone.cache/CacheList#getSecondaryKey()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCacheable" id="com.scholarone.cache/CacheList#isCacheable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRefreshCacheOnUse" id="com.scholarone.cache/CacheList#isRefreshCacheOnUse()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="com.scholarone.cache/CacheList#remove(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="set" id="com.scholarone.cache/CacheList#set(ILjava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCacheLongevity" id="com.scholarone.cache/CacheList#setCacheLongevity(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="size" id="com.scholarone.cache/CacheList#size()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRegenerator" id="com.scholarone.cache/CacheList#getRegenerator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regenerate" id="com.scholarone.cache/CacheList#regenerate(Lcom.scholarone.cache.CacheableObject;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.scholarone.cache/CacheableObject&lt;-com.scholarone.cache/CacheList" source="//@children.9" target="//@children.10" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,165" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="171,169"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.scholarone.cache/CacheList->com.scholarone.cache/CacheableObjectHolder" source="//@children.9" target="//@children.4" targetEnd="//@children.9/@sourceConnections.1/@children.1" label="//@children.9/@sourceConnections.1/@children.2" sourceEnd="//@children.9/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,427" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,0"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.1 //@children.9/@sourceConnections.0 //@children.1/@sourceConnections.0" name="CacheableObject" location="800,306" size="171,336" stereotype="interface" id="com.scholarone.cache/CacheableObject" runTimeClassModel="getPrimaryKey(),isCacheable(),com.scholarone.cache.CacheableObject.ObjectGenerator,flush(),setCacheLongevity(I),regenerate(Lcom.scholarone.cache.CacheableObject;),getSecondaryKey(),isRefreshCacheOnUse(),getCacheLongevity()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,180">
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="com.scholarone.cache/CacheableObject#flush()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPrimaryKey" id="com.scholarone.cache/CacheableObject#getPrimaryKey()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSecondaryKey" id="com.scholarone.cache/CacheableObject#getSecondaryKey()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCacheable" id="com.scholarone.cache/CacheableObject#isCacheable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRefreshCacheOnUse" id="com.scholarone.cache/CacheableObject#isRefreshCacheOnUse()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regenerate" id="com.scholarone.cache/CacheableObject#regenerate(Lcom.scholarone.cache.CacheableObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCacheLongevity" id="com.scholarone.cache/CacheableObject#getCacheLongevity()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCacheLongevity" id="com.scholarone.cache/CacheableObject#setCacheLongevity(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,83">
+      <children xsi:type="editmodel:InterfaceEditModel" name="ObjectGenerator" size="148,81" stereotype="interface" id="com.scholarone.cache/CacheableObject$ObjectGenerator" runTimeClassModel="regenerateObject(Ljava.lang.Class;Lcom.scholarone.cache.CacheCriteria;)">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="115,18">
+          <children xsi:type="editmodel:MethodEditModel" name="regenerateObject" id="com.scholarone.cache/CacheableObject$ObjectGenerator#regenerateObject(Ljava.lang.Class;Lcom.scholarone.cache.CacheCriteria;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ValueObject" location="508,792" size="316,121" id="com.scholarone.valueobject/ValueObject" runTimeClassModel="getId(),save(Ljava.lang.Integer;),setStrategy(Ljava.lang.String;),getInactivatedBy(),getCacheKey(),clone(),regenerate(Lcom.scholarone.cache.CacheableObject;),getSecondaryKey(),isRefreshCacheOnUse(),getRegenerator(),lazyLoadObject(Ljava.lang.String;Ljava.lang.Integer;Ljava.lang.String;),setInactiveDate(Ljava.sql.Timestamp;),getDisplayName(),fIND_BY_PRIMARY_KEY,getXmlDateFormatter(),setModifiedBy(Ljava.lang.Integer;),delete(Ljava.lang.Integer;Ljava.lang.String;),serialVersionUID,delete(Ljava.lang.Integer;Ljava.lang.String;Lcom.scholarone.persistence.GenericPersistenceStrategy;),setModifiedDate(Ljava.sql.Timestamp;),setId(Ljava.lang.Integer;),lazyLoadObject(Ljava.lang.String;Ljava.lang.String;),setIsModified(Z),getCacheLongevity(),setInactivatedBy(Ljava.lang.Integer;),toString(),setConfiguration(Lcom.scholarone.valueobject.ValueObjectConfiguration;),flush(),getInactiveDate(),load(),updateModifiedStatus(Ljava.lang.Object;Ljava.lang.Object;),getModifiedBy(),setAddedBy(Ljava.lang.Integer;),setDisplayName(Ljava.lang.String;),setDeletedBy(Ljava.lang.Integer;),isDeleted(),setAddedDate(Ljava.sql.Timestamp;),isModified(),dEFAULT_SAVE,getLastUpdateDate(),delete(Ljava.lang.Integer;Lcom.scholarone.persistence.GenericPersistenceStrategy;),lazyLoadAll(),ValueObject(I),copy(Ljava.util.Vector;),isCacheable(),getName(),getOrder(),compareTo(Ljava.lang.Object;),getConfiguration(),setOrder(Ljava.lang.Integer;),setIsDeleted(Z),getAddedBy(),save(Ljava.lang.Integer;Ljava.lang.String;),getAddedDate(),initChildren(),getPrimaryKey(),save(Ljava.lang.Integer;Ljava.lang.String;Lcom.scholarone.persistence.GenericPersistenceStrategy;),clear(),getModifiedDate(),cLIENT,isCached(),setName(Ljava.lang.String;),equals(Lcom.scholarone.valueobject.ValueObject;),lazyLoadObject(Ljava.lang.String;Ljava.lang.Integer;Ljava.lang.Integer;Ljava.lang.String;),sERVER,cacheUnbound(),cacheBound(),save(Ljava.lang.Integer;Lcom.scholarone.persistence.GenericPersistenceStrategy;),setStrategy(Lcom.scholarone.persistence.GenericPersistenceStrategy;),getDescription(),setMode(I),lazyLoadObject(Ljava.lang.String;Ljava.util.Vector;Ljava.lang.String;),delete(Ljava.lang.Integer;),getDeletedBy(),setCacheLongevity(I),ValueObject(),getStrategy(),setDescription(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,90"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="147,1548">
+      <children xsi:type="editmodel:MethodEditModel" name="regenerate" id="com.scholarone.valueobject/ValueObject#regenerate(Lcom.scholarone.cache.CacheableObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRegenerator" id="com.scholarone.valueobject/ValueObject#getRegenerator()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="java.lang/Object&lt;-com.scholarone.valueobject/ValueObject" source="//@children.11" target="//@children.12" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="316,60" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,186"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.scholarone.cache/CacheableObject&lt;-com.scholarone.valueobject/ValueObject" source="//@children.11" target="//@children.10" targetEnd="//@children.11/@sourceConnections.1/@children.1" sourceEnd="//@children.11/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="303,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="11,315"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0 //@children.4/@sourceConnections.0" name="Object" location="880,666" size="155,247" id="java.lang/Object">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,198">
+      <children xsi:type="editmodel:MethodEditModel" name="&lt;clinit>" id="java.lang/Object#&lt;clinit>()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Object" id="java.lang/Object#Object()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="java.lang/Object#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getClass" id="java.lang/Object#getClass()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="java.lang/Object#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="notify" id="java.lang/Object#notify()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="notifyAll" id="java.lang/Object#notifyAll()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="java.lang/Object#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="wait" id="java.lang/Object#wait()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="wait" location="-5,219" id="java.lang/Object#wait(J)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="wait" id="java.lang/Object#wait(JI)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.3 //@children.7/@sourceConnections.1" name="CacheTouch" location="85,540" size="122,121" id="com.scholarone.cache/CacheTouch" runTimeClassModel="CacheTouch(Lcom.scholarone.cache.CachePointer;I),CacheTouch(),getTouchTime(),getPointer()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,72">
+      <children xsi:type="editmodel:MethodEditModel" name="CacheTouch" id="com.scholarone.cache/CacheTouch#CacheTouch()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPointer" id="com.scholarone.cache/CacheTouch#getPointer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTouchTime" id="com.scholarone.cache/CacheTouch#getTouchTime()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CacheTouch" id="com.scholarone.cache/CacheTouch#CacheTouch(Lcom.scholarone.cache.CachePointer;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:LabelObjectEditModel" name="ScholarOne Caching Layer" location="9,21" size="253,24" fontInfo="Arial-16-0"/>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=3"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler>
+      <guides position="483"/>
+      <guides position="222">
+        <entries element="//@children.6" alignment="1"/>
+      </guides>
+    </topRuler>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

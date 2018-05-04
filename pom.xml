@@ -1,0 +1,157 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.scholarone</groupId>
+  <artifactId>s1common</artifactId>
+<!-- RESUME NORMAL VERSIONING ASAP. 2017-06-22 Rob deployed an updated 1.1.0.20 jar to artifactory but then we realized builds aren't using the new version where maven cached the old version locally. the use of 20a is a temporary way to force maven to distinguish and download the updated version --><version>1.1.0.20a</version> 
+  <!-- <version>1.1.0.21</version> -->
+
+  <properties>
+    <jdk.version>1.6</jdk.version>
+    <junit.version>4.11</junit.version>
+    <project.build.sourceencoding>UTF-8</project.build.sourceencoding>
+  </properties>
+
+  <distributionManagement>
+    <repository>
+      <id>ssr</id>
+      <name>thomson-reuters-ssr</name>
+      <url>http://artifactory.lstools.int.clarivate.com/artifactory/thomson-reuters-ssr-release</url>
+    </repository>
+  </distributionManagement>
+
+  <dependencies>
+    <!-- http://mvnrepository.com/artifact/commons-io/commons-io -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.2</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.16</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.4</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.management</groupId>
+      <artifactId>jmxri</artifactId>
+      <version>1.2.1</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.scholarone</groupId>
+      <artifactId>utils-mail-dkim</artifactId>
+      <version>1.1.8</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-core</artifactId>
+      <version>1.3</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.javassist</groupId>
+      <artifactId>javassist</artifactId>
+      <version>3.18.1-GA</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.9.5</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.mockrunner</groupId>
+      <artifactId>mockrunner-servlet</artifactId>
+      <version>1.1.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.mockrunner</groupId>
+      <artifactId>mockrunner</artifactId>
+      <version>1.1.1</version>
+      <type>pom</type>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-module-junit4</artifactId>
+      <version>1.5.4</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-api-mockito</artifactId>
+      <version>1.5.4</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source />
+          <target />
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <finalName>s1common-${project.version}</finalName>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+          <appendAssemblyId>false</appendAssemblyId>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

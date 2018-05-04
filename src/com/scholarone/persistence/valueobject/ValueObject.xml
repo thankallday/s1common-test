@@ -1,0 +1,9 @@
+<valueobject name='com.scholarone.common.ValueObject'>
+   <attributes>
+      <attribute name="id" type="java.lang.Integer" column="ID"/>
+      <attribute name="name" type="java.lang.String" column="NAME"/>
+       <attribute name="addedBy" type="java.lang.Integer" column="ADDED_BY"/>
+      <attribute name="modifiedBy" type="java.lang.Integer" column="MODIFIED_BY"/>
+      <attribute name="deletedBy" type="java.lang.Integer" column="DELETED_BY"/>
+  </attributes>
+</valueobject>
